@@ -1,0 +1,115 @@
+<html>
+
+
+<title>Trabajo</title>
+
+
+<body bgcolor=4553F0>
+
+
+<input id=n1> 
+
+<input id=n2>
+
+<input id=n3>
+
+<input id=n4>
+
+<input id=n5>
+
+<input id=n6>
+
+<input id=n7>
+
+<input id=n8>
+
+<input id=n9>
+
+<input id=n10>
+<br>
+ordenado
+
+<br>
+
+<input id=n11>
+
+<input id=n12>
+
+<input id=n13>
+
+<input id=n14>
+
+<input id=n15>
+
+<input id=n16>
+
+<input id=n17>
+
+<input id=n18>
+
+<input id=n19>
+
+<input id=n20>
+
+
+
+<input type=button value=ordenar
+onclick=ordenar()>
+
+
+
+<script>
+
+function ordenar()
+
+{
+
+var
+arr10=[0,0,0,0,0,0,0,0,0,0];
+
+var
+arr1=[document.getElementById('n1').value,
+document.getElementById('n2').value,
+document.getElementById('n3').value,
+document.getElementById('n4').value,
+document.getElementById('n5').value,
+document.getElementById('n6').value,
+document.getElementById('n7').value,
+document.getElementById('n8').value,
+document.getElementById('n9').value,
+document.getElementById('n10').value];
+
+arr10=arr1.sort(function(a, b){return a - b});
+
+
+document.getElementById('n11').value=arr10[0];
+
+document.getElementById('n12').value=arr10[1];
+
+document.getElementById('n13').value=arr10[2];
+
+document.getElementById('n14').value=arr10[3];
+
+document.getElementById('n15').value=arr10[4];
+
+document.getElementById('n16').value=arr10[5];
+
+document.getElementById('n17').value=arr10[6];
+
+document.getElementById('n18').value=arr10[7];
+
+document.getElementById('n19').value=arr10[8];
+
+document.getElementById('n20').value=arr10[9];
+
+
+
+
+
+
+}
+
+</script>
+
+</body>
+</html>
